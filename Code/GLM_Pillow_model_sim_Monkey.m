@@ -74,12 +74,8 @@ PSTH_reshapeHomo = plot_PSTH(pseudo_all_spike_train, PSHT_time_bin, stim_time, z
 mod_setHomo = mod_set;
 
 %% ========================= MOD Inhomo Pillow ==========================
-load([project_workspace_path 'Output/Fig2C_INTENSITY_out.mat'])
-% load([project_workspace_path 'Output/Fig2C_INTENSITY_out_01-Jun-2018.mat'])
-
-figure('Position', [300, 300, 1400, 400]);
-plot(mod_set.iht, mod_set.ihbas); 
-title('basis for post-spike filter h')
+% load([project_workspace_path 'Output/Fig2C_INTENSITY_out.mat'])
+load([project_workspace_path 'Output/Fig2C_INTENSITY_out_01-Jun-2018.mat'])
 
 N_sim = N_trails;
 

@@ -31,6 +31,7 @@ h_l = plot([0 1], [0 1]-1.36/sqrt(length(Tau.Zscr)), '--', 'Color', [.7 .7 .7]);
 
 xlabel('Model CDF', 'interpreter', 'latex') 
 ylabel('Empirical CDF', 'interpreter', 'latex')
+title('Haslinger KS test')
 legend(h_l, {'95\% CI'}, 'Interpreter','latex', 'location', 'southeast');
 
 axis([0 1 0 1]);
