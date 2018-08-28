@@ -17,6 +17,7 @@ Fig 2C: Plot_Diagnosis_Colormap_Gerhard.m
 Fig 5ABC: Stability_diagnose_curve_IMI.m
 
 Fig 8A: GLM_Pillow_model_sim_Goldfish.m
+
 Fig 8B: GLM_IMI_1_glmfit_script_Goldfish.m
 
 Fig 8C: GLM_IMI_3_glmfit_script_Goldfish.m
