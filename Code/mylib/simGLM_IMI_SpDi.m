@@ -34,6 +34,7 @@ else
     end
 end
 
+% Those cases below are left for backward compatibility
 if isfield(glmprs, 'ih1')
 glmprs.ih1 = [glmprs.ih1; zeros(10*1000, 1)];
 end
@@ -78,6 +79,7 @@ while jbin <= rlen
             rrnxt = glmprs.nlfun( log_Firing );
         end    
         
+    % Those cases below are left for backward compatibility
     elseif isfield(glmprs, 'ih4')
         rrnxt = glmprs.nlfun(Itot(iinxt) + glmprs.ih1(iinxt - spk_array(1))...
              + glmprs.ih2(iinxt - spk_array(2)) + glmprs.ih3(iinxt - spk_array(3)) + glmprs.ih4(iinxt - spk_array(4)) );    
