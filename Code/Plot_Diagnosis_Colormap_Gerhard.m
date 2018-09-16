@@ -5,6 +5,10 @@ close all; clear; clc
 
 %% check working environment
 project_workspace_path = 'D:/Divergent_Spiketrain_public/';
+
+% I have calculated the result for you. If you want to calculate the
+% performance of all combination, see code
+% ExploretionRegion_diagnosis_Gerhard.m
 load([project_workspace_path 'Output/Z_Diagnosis_Colormap_Gerhard.mat'])
 
 %%

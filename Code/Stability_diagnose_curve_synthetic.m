@@ -2,7 +2,7 @@ clear; close all; clc
 
 %% check working environment
 % I'm swtching between PC, Mac, and CNBC cluster.
-project_workspace_path = Initialization_Env_Divergent;
+project_workspace_path = 'D:/Divergent_Spiketrain_public/';
 
 %% Pillow basis
 nBases=10;
@@ -74,11 +74,6 @@ A_divergent = [];
 A_fragile = [];
 
 A0 = 10.^(-4:0.1:0);
-
-figure('Position', [300, 300, 600, 500]);
-plot(t, h, 'linewidth', 3);
-hold on
-ylim([-2 5])
 
 for a0 = A0
 	A_stable = [A_stable, fA0_Yu2(h_stable, baseline, a0)]; 
