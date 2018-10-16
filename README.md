@@ -12,6 +12,8 @@ Fig 2A: Stability_diagnose_curve_synthetic.m
 
 Fig 2B: Stability_diagnose_curve_synthetic.m
 
+Fig 3: GLM_INTENSITY_glmfit_Monkey.m
+
 Fig 2C: Plot_Diagnosis_Colormap_Gerhard.m 
 
 Fig 5ABC: Stability_diagnose_curve_IMI.m
